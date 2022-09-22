@@ -5,11 +5,5 @@
           "src": "hallo.py",
           "use": "@vercel/python"
       }
-  ],
-  "routes": [
-      {
-          "src": "(.*)",
-          "dest": "hallo.py"
-      }
   ]
 }
