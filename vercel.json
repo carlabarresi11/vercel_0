@@ -2,8 +2,14 @@
   "version": 2,
   "builds": [
       {
-          "src": "hallo.py",
+          "src": "./hallo.py",
           "use": "@vercel/python"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "hallo.py"
       }
   ]
 }
