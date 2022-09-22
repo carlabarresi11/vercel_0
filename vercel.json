@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "*.py",
+          "use": "@augustociuffoletti1/psr-flask-0"
+      }
+  ],
+  "routes": [
+      {
+          "src": "(.*)",
+          "dest": "app.py"
+      }
+  ]
+}
+Footer
+
